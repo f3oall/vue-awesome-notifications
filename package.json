@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/f3oall/vue-awesome-notifications#readme",
   "dependencies": {
-    "awesome-notifications": "^1.0.4"
+    "awesome-notifications": "^1.0.5"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
