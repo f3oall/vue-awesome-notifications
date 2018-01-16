@@ -1,0 +1,4 @@
+node_modules
+.eslint*
+.prettierrc
+npm-debug.log
