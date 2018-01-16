@@ -1,17 +1,23 @@
 {
   "name": "vue-awesome-notifications",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vue.js version of Awesome Notifications JavaScript library",
   "main": "index.js",
   "scripts": {
-    "build":
-      "rimraf dist/* && cross-env NODE_ENV=production webpack --progress --hide-modules && cpx node_modules/awesome-notifications/src/styles/**/*.scss dist/styles && cpx node_modules/awesome-notifications/dist/style.css dist/styles"
+    "build": "rimraf dist/* && cross-env NODE_ENV=production webpack --progress --hide-modules && cpx node_modules/awesome-notifications/src/styles/**/*.scss dist/styles && cpx node_modules/awesome-notifications/dist/style.css dist/styles"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/f3oall/vue-awesome-notifications.git"
   },
-  "keywords": ["vue", "notifications", "toast", "confirm", "modal", "dialogs"],
+  "keywords": [
+    "vue",
+    "notifications",
+    "toast",
+    "confirm",
+    "modal",
+    "dialogs"
+  ],
   "author": "David Yunevich",
   "license": "MIT",
   "bugs": {
