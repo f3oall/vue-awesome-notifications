@@ -3,7 +3,7 @@
 It's a Vue.js version of [Awesome Notifications](https://github.com/f3oall/awesome-notifications) library. **Awesome Notifications** is a lightweight JavaScript library for notifications.
 
 **Demo**: https://f3oall.github.io/awesome-notifications/
-![Demo gif](docs/demo.gif)
+![Demo gif](demo.gif)
 
 ## Install
 
@@ -35,17 +35,17 @@ For easier customization, SCSS version is preffered.
 **With SCSS - In your App.vue**
 
 ```html
-<styles lang="scss">
+<style lang="scss">
 @import '~vue-awesome-notifications/dist/styles/style.scss';
-</styles>
+</style>
 ```
 
 **With CSS - In your App.vue**
 
 ```html
-<styles lang="css">
+<style lang="css">
 @import 'vue-awesome-notifications/dist/styles/style.css';
-</styles>
+</style>
 ```
 
 **Or in main.js**
@@ -61,6 +61,7 @@ require("vue-awesome-notifications/dist/styles/style.css")
 You can pass `options` object to initialization function to override defaults. List of available options can be found in [Awesome Notifications README.md](https://github.com/f3oall/awesome-notifications).
 
 **Styles**
+
 If you use SCSS, you can configure styles by redefining variables. List of available variables can be found in [Awesome Notifications repo](https://github.com/f3oall/awesome-notifications/blob/master/src/styles/variables.scss)
 
 Otherwise, if you use 'style.css', you can only override it.
