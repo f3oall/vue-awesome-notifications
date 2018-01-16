@@ -35,17 +35,17 @@ For easier customization, SCSS version is preffered.
 **With SCSS - In your App.vue**
 
 ```html
-<styles lang="scss">
+<style lang="scss">
 @import '~vue-awesome-notifications/dist/styles/style.scss';
-</styles>
+</style>
 ```
 
 **With CSS - In your App.vue**
 
 ```html
-<styles lang="css">
+<style lang="css">
 @import 'vue-awesome-notifications/dist/styles/style.css';
-</styles>
+</style>
 ```
 
 **Or in main.js**
