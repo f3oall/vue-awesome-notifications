@@ -3,7 +3,7 @@
 It's a Vue.js version of [Awesome Notifications](https://github.com/f3oall/awesome-notifications) library. **Awesome Notifications** is a lightweight JavaScript library for notifications.
 
 **Demo**: https://f3oall.github.io/awesome-notifications/
-![Demo gif](docs/demo.gif)
+![Demo gif](demo.gif)
 
 ## Install
 
