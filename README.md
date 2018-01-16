@@ -61,6 +61,7 @@ require("vue-awesome-notifications/dist/styles/style.css")
 You can pass `options` object to initialization function to override defaults. List of available options can be found in [Awesome Notifications README.md](https://github.com/f3oall/awesome-notifications).
 
 **Styles**
+
 If you use SCSS, you can configure styles by redefining variables. List of available variables can be found in [Awesome Notifications repo](https://github.com/f3oall/awesome-notifications/blob/master/src/styles/variables.scss)
 
 Otherwise, if you use 'style.css', you can only override it.
