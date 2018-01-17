@@ -3,6 +3,10 @@
   z-index: $awn-container-z-index;
   bottom: $awn-container-padding;
   right: $awn-container-padding;
+  box-sizing: border-box;
+  * {
+    box-sizing: border-box;
+  }
   &.awn-top {
     top: $awn-container-padding;
     bottom: auto;
@@ -15,8 +19,7 @@
     right: auto;
     .awn-event {
       right: 100%;
-      animation: awn-slide-left 0.3s linear;
-      animation-fill-mode: both;
+      animation-name: $awn-event-left-show-animation;
       &.awn-hiding {
         right: 0;
       }
@@ -25,8 +28,7 @@
   &:not(.awn-left) {
     .awn-event {
       left: 100%;
-      animation: awn-slide-right 0.3s linear;
-      animation-fill-mode: both;
+      animation-name: $awn-event-right-show-animation;
       &.awn-hiding {
         left: 0;
       }
@@ -47,6 +49,8 @@
   color: $awn-primary-color;
   background: $awn-primary-background;
   font-size: $awn-event-font-size;
+  animation-timing-function: $awn-event-animation-timing;
+  animation-fill-mode: both;
   b {
     display: block;
     text-transform: uppercase;
@@ -81,7 +85,9 @@
       right: 100%;
       top: 0;
       height: $awn-progress-bar-height;
-      animation: awn-bar 5s linear;
+      animation-name: awn-bar;
+      animation-duration: inherit;
+      animation-timing-function: linear;
       animation-fill-mode: both;
     }
   }
@@ -89,7 +95,7 @@
     animation-play-state: paused;
   }
   &.awn-hiding {
-    animation: awn-fade-out 0.3s linear !important;
+    animation-name: $awn-event-hide-animation !important;
   }
   &.awn-success {
     border-color: $awn-success-border-color;
