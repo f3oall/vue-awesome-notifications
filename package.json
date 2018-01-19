@@ -24,9 +24,6 @@
     "url": "https://github.com/f3oall/vue-awesome-notifications/issues"
   },
   "homepage": "https://github.com/f3oall/vue-awesome-notifications#readme",
-  "dependencies": {
-    "awesome-notifications": "^1.1.1"
-  },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
@@ -37,5 +34,8 @@
     "rimraf": "^2.6.2",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.10.1"
+  },
+  "dependencies": {
+    "awesome-notifications": "^2.0.4"
   }
 }
