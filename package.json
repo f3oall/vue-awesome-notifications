@@ -1,6 +1,6 @@
 {
   "name": "vue-awesome-notifications",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Vue.js version of Awesome Notifications JavaScript library",
   "main": "dist/index.js",
   "scripts": {
