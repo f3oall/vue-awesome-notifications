@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/vue-awesome-notifications.svg)](https://badge.fury.io/js/vue-awesome-notifications)
+
 # Vue Awesome Notifications
 
 It's a Vue.js version of [Awesome Notifications](https://github.com/f3oall/awesome-notifications) library. **Awesome Notifications** is a lightweight JavaScript library for notifications.
