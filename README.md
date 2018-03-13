@@ -1,6 +1,6 @@
 [![npm](https://img.shields.io/npm/v/vue-awesome-notifications.svg?style=for-the-badge)](https://www.npmjs.com/package/vue-awesome-notifications)
 [![npm](https://img.shields.io/npm/dm/vue-awesome-notifications.svg?style=for-the-badge)](https://www.npmjs.com/package/vue-awesome-notifications)
-[![npm](https://img.shields.io/npm/l/vue-awesome-notifications.svg?style=for-the-badge)](https://www.npmjs.com/package/vue-awesome-notifications)
+[![npm](https://img.shields.io/npm/l/vue-awesome-notifications.svg?style=for-the-badge)](LICENSE)
 
 
 # Vue Awesome Notifications
