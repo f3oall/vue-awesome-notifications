@@ -18,12 +18,6 @@ module.exports = [
           exclude: /node_modules/
         }
       ]
-    },
-    plugins: [
-      new webpack.optimize.UglifyJsPlugin({
-        include: /\.js$/,
-        minimize: true
-      })
-    ]
+    }
   }
 ]
