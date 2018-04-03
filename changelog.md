@@ -9,13 +9,19 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 * Override global options on the toast create
 
+## [2.2.7] - 04.03.2018
+
+### Changed
+
+* Start using `awesome-notifications@2.2.7`. [More details](https://github.com/f3oall/awesome-notifications/blob/master/changelog.md#227---04032018)
+
 ## [2.2.6] - 04.03.2018
 
 ### Changed
 
 * Start using Webpack 4. `webpack.config.js` has been changed.
 * Start using Yarn instead of NPM.
-* Start usign `awesome-notifications@2.2.6`.
+* Start using `awesome-notifications@2.2.6`. [More details](https://github.com/f3oall/awesome-notifications/blob/master/changelog.md#226---04032018)
 * Final library size has changed **from 50kb to 16 KB**.
 
 ### Removed

@@ -4,21 +4,16 @@
   "description": "Vue.js version of Awesome Notifications JavaScript library",
   "main": "dist/index.js",
   "scripts": {
-    "build": "rimraf dist/* && webpack --mode production --progress --hide-modules && cpx node_modules/awesome-notifications/src/styles/**/*.scss dist/styles && cpx node_modules/awesome-notifications/dist/style.css dist/styles",
-    "dev": "rimraf dist/* && webpack --mode development --progress --hide-modules && cpx node_modules/awesome-notifications/src/styles/**/*.scss dist/styles && cpx node_modules/awesome-notifications/dist/style.css dist/styles"
+    "build":
+      "rimraf dist/* && webpack --mode production --progress --hide-modules && cpx node_modules/awesome-notifications/src/styles/**/*.scss dist/styles && cpx node_modules/awesome-notifications/dist/style.css dist/styles",
+    "dev":
+      "rimraf dist/* && webpack --mode development --progress --hide-modules && cpx node_modules/awesome-notifications/src/styles/**/*.scss dist/styles && cpx node_modules/awesome-notifications/dist/style.css dist/styles"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/f3oall/vue-awesome-notifications.git"
   },
-  "keywords": [
-    "vue",
-    "notifications",
-    "toast",
-    "confirm",
-    "modal",
-    "dialogs"
-  ],
+  "keywords": ["vue", "notifications", "toast", "confirm", "modal", "dialogs"],
   "author": "David Yunevich",
   "license": "MIT",
   "bugs": {
@@ -35,6 +30,6 @@
     "webpack-cli": "^2.0.13"
   },
   "dependencies": {
-    "awesome-notifications": "^2.2.6"
+    "awesome-notifications": "^2.2.7"
   }
 }
