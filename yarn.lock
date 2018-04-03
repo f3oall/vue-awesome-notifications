@@ -215,9 +215,9 @@ atob@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.0.tgz#ab2b150e51d7b122b9efc8d7340c06b6c41076bc"
 
-awesome-notifications@^2.2.7:
-  version "2.2.7"
-  resolved "https://registry.yarnpkg.com/awesome-notifications/-/awesome-notifications-2.2.7.tgz#d3385621d431f546c96ffb350cb6050930f13cf3"
+awesome-notifications@^2.2.8:
+  version "2.2.8"
+  resolved "https://registry.yarnpkg.com/awesome-notifications/-/awesome-notifications-2.2.8.tgz#762373851f90208d720c039a8635cd27fafa18bb"
 
 aws-sign2@~0.6.0:
   version "0.6.0"
