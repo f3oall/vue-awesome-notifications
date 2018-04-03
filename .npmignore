@@ -1,0 +1,4 @@
+*.md
+*.gif
+yarn.lock
+yarn-error.log
