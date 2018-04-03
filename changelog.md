@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed
 
 * Start using `awesome-notifications@2.2.7`. [More details](https://github.com/f3oall/awesome-notifications/blob/master/changelog.md#227---04032018)
+* Update `readme.md`
 
 ## [2.2.6] - 04.03.2018
 

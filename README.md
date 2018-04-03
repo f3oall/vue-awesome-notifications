@@ -2,20 +2,32 @@
 [![npm](https://img.shields.io/npm/dm/vue-awesome-notifications.svg?style=for-the-badge)](https://www.npmjs.com/package/vue-awesome-notifications)
 [![npm](https://img.shields.io/npm/l/vue-awesome-notifications.svg?style=for-the-badge)](LICENSE)
 
-
 # Vue Awesome Notifications
 
 It's a Vue.js version of [Awesome Notifications](https://github.com/f3oall/awesome-notifications) library. **Awesome Notifications** is a lightweight JavaScript library for notifications.
 
+**5KB gzipped size** &bull; **no dependencies** &bull; **advanced async support** &bull; **fully customizable** &bull; **>95% test coverage**
+
 **Demo**: https://f3oall.github.io/awesome-notifications/
+
+**Changelog**: [changelog.md](changelog.md)
+
 ![Demo GIF](demo1.gif)
 
 ## Install
 
-> **Attention!** This library uses FontAwesome icons, so you either need to make sure that [FontAwesome](http://fontawesome.io/get-started/) is connected to your project, either disable icons, passing the `icons: {enabled: false}` property to options. Also you can preserve icons, setting up a custom template for them via editting `options.icons.template`
+> **Attention!** This library uses FontAwesome 4 icons, so you either need to make sure that [FontAwesome](http://fontawesome.io/get-started/) is connected to your project, either disable icons, passing the `icons: {enabled: false}` property to options. Also you can preserve icons, setting up a custom template for them via editing `options.icons.prefix` and `options.icons.suffix`
+
+**Via NPM**
 
 ```
 npm install --save vue-awesome-notifications
+```
+
+**Via Yarn**
+
+```
+yarn add vue-awesome-notifications
 ```
 
 **In main.js**
