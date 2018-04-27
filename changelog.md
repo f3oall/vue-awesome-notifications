@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 * Override global options on the toast create
 
+## [2.2.9] - 04.27.2018
+
+### Changed
+
+* Start using `awesome-notifications@2.2.9`. [More details](https://github.com/f3oall/awesome-notifications/blob/master/changelog.md#229---04272018)
+
 ## [2.2.8] - 04.03.2018
 
 ### Added
