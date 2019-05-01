@@ -6,17 +6,17 @@
 
 It's a Vue.js version of [Awesome Notifications](https://github.com/f3oall/awesome-notifications) library.  
 
-**Awesome Notifications** is a lightweight JavaScript library for notifications.
+**Awesome Notifications** is a lightweight, fully customizable JavaScript notifications library with enhanced async support.  
 
-**3KB gzipped size** &bull; **no dependencies** &bull; **advanced async support** &bull; **fully customizable** &bull; **>95% test coverage**
+**3kb gzipped** &bull; **no dependencies**  &bull; **advanced async support**  &bull; **fully customizable**  &bull; **>95% test coverage**.
 
-**Demo**: https://f3oall.github.io/awesome-notifications/
+**Demo:** https://f3oall.github.io/awesome-notifications/
 
-**Changelog**: [changelog.md](changelog.md)
+**Changelog:** [changelog.md](changelog.md)
 
 ## Documentation
 
-You can learn how to use this library [here](https://f3oall.github.io/awesome-notifications/docs/integrations/vue)
+Read our detailed and convinient [documentation](https://f3oall.github.io/awesome-notifications/docs) to learn how to use this library for 100%.
 
 ## Browser support
 
