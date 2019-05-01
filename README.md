@@ -16,7 +16,7 @@ It's a Vue.js version of [Awesome Notifications](https://github.com/f3oall/aweso
 
 ## Documentation
 
-Read our detailed and convinient [documentation](https://f3oall.github.io/awesome-notifications/docs) to learn how to use this library for 100%.
+Read our detailed and convinient [documentation](https://f3oall.github.io/awesome-notifications/docs/integrations/vue) to learn how to use this library for 100%.
 
 ## Browser support
 
