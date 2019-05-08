@@ -36,6 +36,6 @@
     "webpack-cli": "^3.3.1"
   },
   "dependencies": {
-    "awesome-notifications": "^3.0.1"
+    "awesome-notifications": "^3.0.2"
   }
 }
