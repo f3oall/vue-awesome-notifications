@@ -14,7 +14,7 @@ It's a Vue.js version of [Awesome Notifications](https://github.com/f3oall/aweso
 
 **Changelog:** [changelog.md](changelog.md)
 
-## Patreon
+## Donate
 
 If you like this library you can become a patron [here](https://www.patreon.com/f3oall).
 
