@@ -1,41 +1,41 @@
 {
-  "name": "vue-awesome-notifications",
-  "version": "3.1.0",
-  "description": "Vue.js version of Awesome Notifications JavaScript library",
-  "main": "dist/index.js",
-  "scripts": {
-    "build": "rimraf dist/* && webpack --mode production --progress --hide-modules && cpx node_modules/awesome-notifications/src/styles/**/*.scss dist/styles && cpx node_modules/awesome-notifications/dist/style.css dist/styles",
-    "dev": "rimraf dist/* && webpack --mode development --progress --hide-modules && cpx node_modules/awesome-notifications/src/styles/**/*.scss dist/styles && cpx node_modules/awesome-notifications/dist/style.css dist/styles"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/f3oall/vue-awesome-notifications.git"
-  },
-  "keywords": [
-    "vue",
-    "notifications",
-    "popup",
-    "toast",
-    "confirm",
-    "modal",
-    "dialogs"
-  ],
-  "author": "David Yunevich",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/f3oall/vue-awesome-notifications/issues"
-  },
-  "homepage": "https://github.com/f3oall/vue-awesome-notifications#readme",
-  "devDependencies": {
-    "@babel/core": "^7.7.4",
-    "@babel/register": "^7.7.4",
-    "babel-loader": "^8.0.6",
-    "cpx": "^1.5.0",
-    "rimraf": "^3.0.0",
-    "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10"
-  },
-  "dependencies": {
-    "awesome-notifications": "^3.1.0"
-  }
+    "name": "vue-awesome-notifications",
+    "version": "3.1.0",
+    "description": "Vue.js version of Awesome Notifications JavaScript library",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "rimraf dist/* && webpack --mode production --progress --hide-modules && cpx node_modules/awesome-notifications/src/styles/**/*.scss dist/styles && cpx node_modules/awesome-notifications/dist/style.css dist/styles",
+        "dev": "rimraf dist/* && webpack --mode development --progress --hide-modules && cpx node_modules/awesome-notifications/src/styles/**/*.scss dist/styles && cpx node_modules/awesome-notifications/dist/style.css dist/styles"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/f3oall/vue-awesome-notifications.git"
+    },
+    "keywords": [
+        "vue",
+        "notifications",
+        "popup",
+        "toast",
+        "confirm",
+        "modal",
+        "dialogs"
+    ],
+    "author": "David Yunevich",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/f3oall/vue-awesome-notifications/issues"
+    },
+    "homepage": "https://github.com/f3oall/vue-awesome-notifications#readme",
+    "devDependencies": {
+        "@babel/core": "^7.7.4",
+        "@babel/register": "^7.7.4",
+        "babel-loader": "^8.0.6",
+        "cpx": "^1.5.0",
+        "rimraf": "^3.0.0",
+        "webpack": "^4.41.2",
+        "webpack-cli": "^3.3.10"
+    },
+    "dependencies": {
+        "awesome-notifications": "^3.1.1"
+    }
 }
